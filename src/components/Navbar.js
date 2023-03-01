@@ -8,29 +8,23 @@ function Navigation(){
             <nav className="navbar navbar-expand navbar-dark bg-dark">
                 <div className="container">
                     <NavLink className="navbar-brand" to="/">
-                        React Multi-Page Website
+                       BookAway
                     </NavLink>
                     <div>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/">
                                     Home
-                                    <span className="sr-only">(current)</span>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">
-                                    About
+                                <NavLink className="nav-link" to="/calendar">
+                                    Calendar
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">
-                                    Contact
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/blog">
-                                    Blog
+                                <NavLink className="nav-link" to="/signin">
+                                   SignIn/SignUp
                                 </NavLink>
                             </li>
                         </ul>
