@@ -24,7 +24,7 @@ function Navigation(){
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/signin">
-                                   SignIn/SignUp
+                                   SignIn
                                 </NavLink>
                             </li>
                         </ul>

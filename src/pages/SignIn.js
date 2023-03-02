@@ -3,6 +3,10 @@ import { Form, Button, Container } from 'react-bootstrap';
 
 
 export default function SignIn(){
+    function handleClick(e){
+        console.log('Your information was saved successfully')
+        e.preventDefault()
+    }
     return(
         <Container>
 
@@ -20,9 +24,9 @@ export default function SignIn(){
                 <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                <Form.Check type="checkbox" label="Remember Password" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={handleClick}>
                 SignIn
             </Button>
         </Form>

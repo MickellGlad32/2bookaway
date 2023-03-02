@@ -1,8 +1,8 @@
 import './App.css';
 import Navigation from './components/Navbar';
-import Home from './components/Home';
-import SignIn from './components/SignIn';
-import CalendarView from './components/CalendarView';
+import Home from './pages/Home';
+import SignIn from './pages/SignIn';
+import CalendarView from './pages/CalendarView';
 import Footer from './components/Footer';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 
